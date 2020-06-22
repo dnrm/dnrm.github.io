@@ -16,24 +16,29 @@ nav > ul {
     font-size: 1.3em;
 }
 
-.banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
+.container {
+    width: 100%;
 
-    h1 {
-        font-size: 3em;
+    .left-image {
+        float: left;
+        width: 50%;
+        height: 50%;
+        background-image: url("bgimg.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        #image-left {
+            width: 50%;
+            height: 100%;
+            object-fit: contain;
+        }
     }
-}
 
-.information {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    .right-text {
+        float: right;
 
-    .who-am-i {
-        text-align: center;
+        .center-text {
+            display: block;
+        }
     }
 }

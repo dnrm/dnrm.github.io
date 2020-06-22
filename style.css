@@ -17,37 +17,31 @@ nav > ul {
   font-size: 1.3em;
 }
 
-.banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 90vh;
+.container {
+  width: 100%;
 }
 
-.banner h1 {
-  font-size: 3em;
+.container .left-image {
+  float: left;
+  width: 50%;
+  height: 50%;
+  background-image: url("bgimg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.information {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100vh;
+.container .left-image #image-left {
+  width: 50%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-.information .who-am-i {
-  text-align: center;
+.container .right-text {
+  float: right;
+}
+
+.container .right-text .center-text {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
