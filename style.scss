@@ -10,9 +10,30 @@ nav > ul {
     list-style-type: none;
 }
 
-.container {
+#top-link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 90vh;
+
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    .who-am-i {
+        text-align: center;
+    }
 }

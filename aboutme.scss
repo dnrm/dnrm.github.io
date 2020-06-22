@@ -1,0 +1,35 @@
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: sans-serif;
+    color: white;
+}
+
+.add-margin {
+    margin: 80px;
+}
+
+body {
+    overflow: hidden;
+    background-color: red;
+    animation: test 3s linear infinite;
+    animation-play-state: running;
+    font-size: 1.4em;
+}
+
+@keyframes test {
+    0% {
+        background-color: rgb(201, 143, 165);
+    }
+    33% {
+        background-color: rgb(224, 123, 123);
+    }
+    66% {
+        background-color: rgb(123, 167, 224);
+    }
+    100% {
+        background-color: rgb(201, 143, 165);
+    }
+}
