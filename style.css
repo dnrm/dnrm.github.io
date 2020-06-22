@@ -3,45 +3,11 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
 }
 
-nav > ul {
-  margin: 25px;
-  list-style-type: none;
-}
-
-#top-link {
-  color: black;
-  text-decoration: none;
-  font-size: 1.3em;
-}
-
-.container {
-  width: 100%;
-}
-
-.container .left-image {
-  float: left;
-  width: 50%;
-  height: 50%;
-  background-image: url("bgimg.jpeg");
-  background-size: cover;
+body {
+  background: url(images/background.JPG);
   background-repeat: no-repeat;
-}
-
-.container .left-image #image-left {
-  width: 50%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.container .right-text {
-  float: right;
-}
-
-.container .right-text .center-text {
-  display: block;
+  background-size: 50% 100%;
 }
 /*# sourceMappingURL=style.css.map */

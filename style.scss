@@ -2,43 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
 }
 
-nav > ul {
-    margin: 25px;
-    list-style-type: none;
-}
-
-#top-link {
-    color: black;
-    text-decoration: none;
-    font-size: 1.3em;
-}
-
-.container {
-    width: 100%;
-
-    .left-image {
-        float: left;
-        width: 50%;
-        height: 50%;
-        background-image: url("bgimg.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-
-        #image-left {
-            width: 50%;
-            height: 100%;
-            object-fit: contain;
-        }
-    }
-
-    .right-text {
-        float: right;
-
-        .center-text {
-            display: block;
-        }
-    }
+body {    
+    background: url(images/background.JPG);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
 }
