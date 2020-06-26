@@ -1,0 +1,243 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    ul {
+        position: fixed;
+        padding: 1em;
+        background-color: #fff;
+        width: 100%;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+
+        li {
+            display: inline;
+            font-size: 1.1em;
+            padding-left: 8px;
+            padding-right: 8px;
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        .right-align {
+            float: right;
+        }
+
+        #to-top {
+            cursor: pointer;
+        }
+    }
+}
+
+#left {
+    background-image: url(images/dark.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    h1 {
+        text-align: center;
+        font-size: 4em;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.3em;
+    }
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    .portfolio {
+        margin-left: 25vh;
+        margin-right: 25vh;
+        
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        a {
+            text-align: center;
+            color: white;
+            background-color: #411111;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.product-section {
+    h1 {
+        margin: 15px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    p {
+        margin-left: 25vh;
+        margin-right: 25vh;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .our-products {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+
+    }
+
+    .services {
+        display: flex;
+
+        .service {
+            width: 250px;
+            padding: 100px 60px 100px 60px;
+            background-image: url(images/services.jpeg);
+            background-size: cover;
+            background-position-x: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: white;
+            font-size: 1.6em;
+            transition: 0.5s;
+
+            &:hover {
+                filter: grayscale(100%);
+            }
+
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    text-align: center;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.achievements {
+    color: white;
+    background-color: #581212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin-top: -100px;
+
+    div > h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5em;
+    }
+
+    .stats {
+        ul {
+            margin: 20px;
+
+            li {
+                display: inline;
+                margin: 10px;
+                padding: 0;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+.team-header {
+    margin-top: 40px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.grid-container {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+    .grid {
+        display: flex;
+        margin: 0px 20px 0px 20px;
+    
+        .person {
+            width: 250px;
+            padding: 80px 60px 80px 60px;
+            background-image: url(images/services.jpeg);
+            background-size: cover;
+            background-position-x: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: white;
+            font-size: 1.6em;
+            transition: 0.5s;
+    
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                h3 {
+                    font-size: 1.5em;
+                    text-align: center;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.row2 {
+    margin-top: 0;
+}
+
+#team-break {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

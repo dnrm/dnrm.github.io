@@ -1,0 +1,290 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+nav ul {
+  position: fixed;
+  padding: 1em;
+  background-color: #fff;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li {
+  display: inline;
+  font-size: 1.1em;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul .right-align {
+  float: right;
+}
+
+nav ul #to-top {
+  cursor: pointer;
+}
+
+#left {
+  background-image: url(images/dark.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+#center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+#center h1 {
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#center p {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.portfolio-container .portfolio {
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
+
+.portfolio-container .portfolio h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.portfolio-container .portfolio p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.portfolio-container .portfolio a {
+  text-align: center;
+  color: white;
+  background-color: #411111;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.product-section h1 {
+  margin: 15px;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.product-section p {
+  margin-left: 25vh;
+  margin-right: 25vh;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.product-section .our-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+}
+
+.product-section .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-section .services .service {
+  width: 250px;
+  padding: 100px 60px 100px 60px;
+  background-image: url(images/services.jpeg);
+  background-size: cover;
+  background-position-x: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 1.6em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.product-section .services .service:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.product-section .services .service .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-section .services .service .center h3 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.achievements {
+  color: white;
+  background-color: #581212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  margin-top: -100px;
+}
+
+.achievements div > h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5em;
+}
+
+.achievements .stats ul {
+  margin: 20px;
+}
+
+.achievements .stats ul li {
+  display: inline;
+  margin: 10px;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.team-header {
+  margin-top: 40px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.grid-container {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+}
+
+.grid-container .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 20px 0px 20px;
+}
+
+.grid-container .grid .person {
+  width: 250px;
+  padding: 80px 60px 80px 60px;
+  background-image: url(images/services.jpeg);
+  background-size: cover;
+  background-position-x: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 1.6em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.grid-container .grid .person .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid-container .grid .person .center h3 {
+  font-size: 1.5em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row2 {
+  margin-top: 0;
+}
+
+#team-break {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=style.css.map */
