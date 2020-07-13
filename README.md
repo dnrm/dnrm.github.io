@@ -21,7 +21,7 @@ I am Daniel Medina, I am currently a student and aspiring web developer. I got a
 
 Day to day I create things with **JavaScript**, some **python**, and every now and then I use **PHP** and **MySQL**.
 
-<brS>
+<br>
 
 ### Programming Languages
 
