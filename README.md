@@ -1,9 +1,15 @@
 ## Hello :wave: Developers!
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e4739726b513bd48a6e329f39be9c022e266ff4a4ba&rid=giphy.gif" width="100">
-    <br><br>
-<samp>I am a student and aspiring web developer. I am interested in working with back-end languages. Currently learning Vue and React.</samp></p>
+<a href="https://dev.to/dannermm"><img height="30" src="https://raw.githubusercontent.com/WaylonWalker/WaylonWalker/main/icon/dev.png"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/dannermm_"><img height="30" src="https://github.com/WaylonWalker/WaylonWalker/blob/main/icon/twitter.png?raw=true"></a>&nbsp;&nbsp;
+<a href="https://instagram.com/dannermm"><img height="30" src="https://github.com/WaylonWalker/WaylonWalker/blob/main/icon/instagram.jpg?raw=true"></a>&nbsp;&nbsp;
+<br>
+</p>
+
+Hey! :wave:
+
+I am Daniel Medina, I am currently a student and aspiring web developer. I got a lot of experience in front-end languages such as HTML CSS and JavaScript. I have a passion for learning, I never stop. Programming is an endless journey of learning. I am interested in becoming a full stack web developer. Make sure to check out [my website!](https://dannermm.com) and my repos down there ⬇️⬇️.
 
 ### Programming Languages
 
@@ -14,5 +20,3 @@
 
 | <img src="https://iseif.dev/wp-content/uploads/2019/06/vscode-logo.png" width="60"> |
 |:---:|
-
-[Visit my website](https://dannermm.com)
