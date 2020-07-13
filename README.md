@@ -11,6 +11,8 @@ Hey! :wave:
 
 I am Daniel Medina, I am currently a student and aspiring web developer. I got a lot of experience in front-end languages such as HTML CSS and JavaScript. I have a passion for learning, I never stop. Programming is an endless journey of learning. I am interested in becoming a full stack web developer. Make sure to check out [my website!](https://dannermm.com) and my repos down there ⬇️⬇️.
 
+---
+
 ### Programming Languages
 
 |<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="60"> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png" width=80> |
