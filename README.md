@@ -29,5 +29,4 @@ Feel free to check out the projects I have in my website! My favourite ones are 
 
 | <img src="https://iseif.dev/wp-content/uploads/2019/06/vscode-logo.png" width="60"> |
 |:---:|
-
 VsCode
