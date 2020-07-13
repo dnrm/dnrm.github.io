@@ -19,18 +19,15 @@ I am Daniel Medina, I am currently a student and aspiring web developer. I got a
 
 ### Some things I do :smile:
 
-Day to day I create things with **JavaScript**, some **python**, and every now and then I use **PHP** and **MySQL**. I am interested in learning React, Vue, TypeScript, jQuery, and NodeJs.
+Day to day I create things with **JavaScript**, some **Python**, and every now and then I use **PHP** and **MySQL**. I am interested in learning React, Vue, TypeScript, jQuery, and NodeJs.
 
 Feel free to check out the projects I have in my website! My favourite ones are the [admin panel](https://dannermm.com/prototypes/adminpanel) and the [blog prototype](https://dannermm.com/cards)
 
 <br>
 
-### Programming Languages
-
-|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="60"> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png" width=80> |
-|:---:|:---:|
-
-### What I Use :fire:
+### My Editor of Choice :fire:
 
 | <img src="https://iseif.dev/wp-content/uploads/2019/06/vscode-logo.png" width="60"> |
 |:---:|
+
+VsCode
