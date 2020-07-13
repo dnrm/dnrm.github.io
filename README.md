@@ -21,6 +21,8 @@ I am Daniel Medina, I am currently a student and aspiring web developer. I got a
 
 Day to day I create things with **JavaScript**, some **python**, and every now and then I use **PHP** and **MySQL**. I am interested in learning React, Vue, TypeScript, jQuery, and NodeJs.
 
+Feel free to check out the projects I have in my website! My favourite ones are the [admin panel](https://dannermm.com/prototypes/adminpanel) and the [blog prototype](https://dannermm.com/cards)
+
 <br>
 
 ### Programming Languages
