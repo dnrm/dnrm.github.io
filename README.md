@@ -1,6 +1,8 @@
 ## Hello :wave: Developers!
 
-<p align="center"><samp>I am a student and aspiring web developer. I am interested in working with back-end languages. Currently learning Vue and React.</samp></p>
+<p align="center">
+    <img src="https://media3.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e4739726b513bd48a6e329f39be9c022e266ff4a4ba&rid=giphy.gif" width="80">
+<samp>I am a student and aspiring web developer. I am interested in working with back-end languages. Currently learning Vue and React.</samp></p>
 
 ### Programming Languages
 
