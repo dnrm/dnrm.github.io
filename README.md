@@ -14,8 +14,10 @@ I am Daniel Medina, I am currently a student and aspiring web developer. I got a
 ---
 
 <p>
-    <a href="https://dannermm.com"><img src="https://bitrebels.com/wp-content/uploads/2018/06/programming-languages-learn-header-image.jpg" width="300" align="right">Image Here</a>
+    <a href="https://dannermm.com"><img src="https://bitrebels.com/wp-content/uploads/2018/06/programming-languages-learn-header-image.jpg" width="400" align="right"></a>
 </p>
+
+### Some things I do :smile:
 
 Day to day I create things with **JavaScript**, some **python**, and every now and then I use **PHP** and **MySQL**.
 
