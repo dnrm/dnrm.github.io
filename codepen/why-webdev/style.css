@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background: url("https://www.templatemonster.com/blog/wp-content/uploads/2016/04/1-9-2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  background-color: #2d2d2c;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul {
+  list-style: none;
+  margin: 15px;
+}
+nav ul li {
+  display: inline;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+nav ul li:hover {
+  background-color: #191919;
+}
+nav p {
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+main .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main .content .items h1 {
+  color: white;
+  width: 100vw;
+  text-align: center;
+  font-size: 2.5em;
+}
+main .content .items h3 {
+  position: relative;
+  display: block;
+  font-size: 1.5em;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  left: 0;
+}
+
+.fill {
+  background-color: black;
+}
+
+.fill .items h3 {
+  width: 90vw !important;
+}
+
+/*# sourceMappingURL=style.css.map */
